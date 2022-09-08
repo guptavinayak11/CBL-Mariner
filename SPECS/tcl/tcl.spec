@@ -1,4 +1,4 @@
-%define majorver %(echo %{version} | cut -d. -f1-2)
+%global majorver %(echo %{version} | cut -d. -f1-2)
 Summary:        Tool Command Language - the language and library.
 Name:           tcl
 Version:        8.6.12
